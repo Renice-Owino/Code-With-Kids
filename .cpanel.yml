@@ -1,5 +1,7 @@
----
-deployment:
- tasks:
- - export DEPLOYPATH=/home2/codewith/test2.codewithkids.africa
- - /bin/cp -R * $DEPLOYPATH.
+deploy:
+  tasks:
+    - export GIT_REPO=https://github.com/Renice-Owino/Code-With-Kids
+    - export TMP_DIR=/tmp/deploy
+    - mkdir -p $TMP_DIR
+    - git clone $GIT_REPO $TMP_DIR
+    - cp -R $TMP_DIR/* .
