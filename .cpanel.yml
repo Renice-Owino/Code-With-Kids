@@ -1,0 +1,2 @@
+-export DEPLOYPATH=/home2/codewith/test.codewithkids.africa/
+-/bin/cp -R * $DEPLOYPATH.
