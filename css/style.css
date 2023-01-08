@@ -1,10 +1,10 @@
 /********** Template CSS **********/
 :root {
-  --primary: #fe5d37;
+  --primary: #f7cb1c;
   --light: #fff5f3;
   --dark: #103741;
 }
-
+/* Yellow #F7CB1C Blue #17375B Cyan #25AA9B pink #EC4C6C */
 .back-to-top {
   position: fixed;
   display: none;
