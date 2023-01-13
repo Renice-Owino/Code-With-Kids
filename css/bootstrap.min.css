@@ -25,7 +25,8 @@
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #fff5f3;
-  --bs-dark: #103741;
+  --bs-dark: #17375B;
+  --bs-cwk-blue: #17375B;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -6851,6 +6852,9 @@ fieldset:disabled .btn {
 }
 .bg-dark {
   background-color: #103741 !important;
+}
+.bg-cwk {
+  background-color: #17375B !important;
 }
 .bg-body {
   background-color: #fff5f3 !important;
