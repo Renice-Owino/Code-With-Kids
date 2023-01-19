@@ -1,0 +1,53 @@
+#card-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card {
+    width: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.card-body {
+    height: 0px;
+    width: 225px;
+    position: absolute;
+    transform: translateY(80px);
+    opacity: 0;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    transition: all 0.4s;
+    overflow: hidden;
+    background-color: grey;
+    
+}
+
+.card-title{
+    text-align: center;
+    color: white;
+}
+
+.card-text {
+    text-align: center;
+    color: black; 
+    font-size: 1.65vh;
+    font-weight: 600;
+}
+
+.card:hover .card-body {
+    opacity: 1;
+    height: 250px;
+    transform: translateY(0px);
+    
+}
