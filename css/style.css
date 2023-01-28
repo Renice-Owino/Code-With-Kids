@@ -235,7 +235,7 @@ h6,
 
 .page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../img/carousel-1.jpg) center center no-repeat;
+    url(../img/boys.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -446,7 +446,7 @@ h6,
   margin-bottom: 8px;
   padding-bottom: 8px;
   white-space: nowrap;
-  border-bottom: 1px solid rgba(0, 0, 0, .15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .event .event-meta p:last-child {
@@ -471,7 +471,7 @@ h6,
   height: calc(100% - 5px);
   top: 6px;
   left: 0;
-  background: rgba(0, 0, 0, .15);
+  background: rgba(0, 0, 0, 0.15);
 }
 
 .event .event-text::after {
@@ -481,7 +481,7 @@ h6,
   height: 40px;
   top: calc(50% - 20px);
   left: -1px;
-  background: #FDBE33;
+  background: #fdbe33;
 }
 
 .event .event-text h3 {
@@ -501,38 +501,38 @@ h6,
 
 @media (max-width: 575.98px) {
   .event .event-content {
-      flex-direction: column;
+    flex-direction: column;
   }
-  
+
   .event .event-meta {
-      flex-direction: row;
+    flex-direction: row;
   }
-  
+
   .event .event-meta p {
-      font-size: 14px;
-      padding-right: 7px;
+    font-size: 14px;
+    padding-right: 7px;
   }
-  
+
   .event .event-meta p:last-child {
-      border-bottom: 1px solid rgba(0, 0, 0, .15);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   }
-  
+
   .event .event-meta i {
-      width: 18px;
+    width: 18px;
   }
-  
+
   .event .event-text {
-      margin: 0;
-      padding: 0;
+    margin: 0;
+    padding: 0;
   }
-  
+
   .event .event-text::before,
   .event .event-text::after {
-      display: none;
+    display: none;
   }
   /*******************************/
-/********** End Event CSS **********/
-/*******************************/
+  /********** End Event CSS **********/
+  /*******************************/
 }
 
 /*** Testimonial ***/
