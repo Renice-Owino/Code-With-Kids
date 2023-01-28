@@ -1,415 +1,527 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Code With Kids</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
-<head>
-  <meta charset="utf-8" />
-  <title>Code With Kids</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <meta content="" name="keywords" />
-  <meta content="" name="description" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/logo.png" />
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="img/logo.png" />
-
-  <!-- Google Web Fonts -->
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- Google Web Fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@600&family=Lobster+Two:wght@700&display=swap"
       rel="stylesheet"
     /> -->
-  <link href="https://fonts.cdnfonts.com/css/stupendous-jack" rel="stylesheet" />
+    <link
+      href="https://fonts.cdnfonts.com/css/stupendous-jack"
+      rel="stylesheet"
+    />
 
-  <!-- Icon Font Stylesheet -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
-  <!-- Libraries Stylesheet -->
-  <link href="lib/animate/animate.min.css" rel="stylesheet" />
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
-  <!-- Customized Bootstrap Stylesheet -->
-  <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-  <!-- Template Stylesheet -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- <link rel="stylesheet" href="css/sdg.css"> -->
-</head>
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="css/sdg.css"> -->
+  </head>
 
-<body>
-  <div class="container-xxl bg-white p-0">
-    <!-- Spinner Start -->
-    <div id="spinner"
-      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-      <div class="spinner-border text-primary" style="width: 3rem; height: 3rem" role="status">
-        <span class="sr-only">Loading...</span>
-      </div>
-    </div>
-    <!-- Spinner End -->
-
-    <!-- Navbar Start -->
-    <nav
-      class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0"
-    >
-      <a href="index.html" class="navbar-brand">
-        <img src="img/logo.png" alt="Logo" width="100" />
-      </a>
-      <button
-        type="button"
-        class="navbar-toggler"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarCollapse"
+  <body>
+    <div class="container-xxl bg-white p-0">
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
       >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav mx-auto">
-          <a href="index.html" class="nav-item nav-link">Home</a>
-          <a href="about.html" class="nav-item nav-link">About Us</a>
-          <a href="programs.html" class="nav-item nav-link">Programs</a>
-          <a href="modules.html" class="nav-item nav-link">Learning Tracks</a>
-          <a href="events.html" class="nav-item nav-link">Events</a>
-          <a href="team.html" class="nav-item nav-link">Our Team</a>
-          <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+        <div
+          class="spinner-border text-primary"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Loading...</span>
         </div>
-        <a href="" class="btn btn-primary rounded-pill px-3 d-none d-lg-block"
-          >Donate<i class="fa fa-arrow-right ms-3"></i
-        ></a>
       </div>
-    </nav>
-    <!-- Navbar End -->
+      <!-- Spinner End -->
 
-    <!-- Page Header End -->
-    <div class="container-xxl py-5 page-header position-relative mb-5">
-      <div class="container py-5">
-        <h1 class="display-2 text-white animated slideInDown mb-4">
-          About Us
-        </h1>
-        <nav aria-label="breadcrumb animated slideInDown">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item text-white active" aria-current="page">
-              About Us
-            </li>
-          </ol>
-        </nav>
+      <!-- Navbar Start -->
+      <nav
+        class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0"
+      >
+        <a href="index.html" class="navbar-brand">
+          <img src="img/logo.png" alt="Logo" width="100" />
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav mx-auto">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="about.html" class="nav-item nav-link">About Us</a>
+            <a href="programs.html" class="nav-item nav-link">Programs</a>
+            <a href="modules.html" class="nav-item nav-link">Learning Tracks</a>
+            <a href="events.html" class="nav-item nav-link">Events</a>
+            <a href="team.html" class="nav-item nav-link">Our Team</a>
+            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+          </div>
+          <a href="" class="btn btn-primary rounded-pill px-3 d-none d-lg-block"
+            >Donate<i class="fa fa-arrow-right ms-3"></i
+          ></a>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Page Header End -->
+      <div class="container-xxl py-5 page-header position-relative mb-5">
+        <div class="container py-5">
+          <h1 class="display-2 text-white animated slideInDown mb-4">
+            About Us
+          </h1>
+          <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item text-white active" aria-current="page">
+                About Us
+              </li>
+            </ol>
+          </nav>
+        </div>
       </div>
-    </div>
-    <!-- Page Header End -->
+      <!-- Page Header End -->
 
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="row g-5 align-items-center">
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <h1 class="mb-4">
-              Learn More About Our Work And Our Cultural Activities
-            </h1>
-            <p>
-              Code With Kids is a community-focused organization dedicated to
-              providing affordable and accessible STEM education to children
-              and young adults from low-income areas. Our goal is to empower
-              the next generation of innovators by giving them the tools and
-              resources they need to excel in the fields of Science,
-              Technology, Engineering, and Mathematics.
-            </p>
-            <p class="mb-4">
-              Our maker space is equipped with a wide range of
-              state-of-the-art equipment and technologies, including laptops,
-              robotics kits, Science kits, and computer programming platforms.
-              Our experienced and passionate educators lead hands-on sessions
-              and workshops that encourage creativity, problem-solving and
-              collaboration.
-            </p>
-            <div class="row g-4 align-items-center">
-              <div class="col-sm-6">
-                <a class="btn btn-primary rounded-pill py-3 px-5" href="">Read More</a>
-              </div>
-              <div class="col-sm-6">
-                <div class="d-flex align-items-center">
-                  <img class="rounded-circle flex-shrink-0" src="img/user.jpg" alt=""
-                    style="width: 45px; height: 45px" />
-                  <div class="ms-3">
-                    <h6 class="text-primary mb-1">Renice Owino</h6>
-                    <small>CEO & Founder</small>
-                  </div>
+      <!-- About Start -->
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <h1 class="mb-4">
+                Learn More About Our Work And Our Cultural Activities
+              </h1>
+              <p>
+                Code With Kids is a community-focused organization dedicated to
+                providing affordable and accessible STEM education to children
+                and young adults from low-income areas. Our goal is to empower
+                the next generation of innovators by giving them the tools and
+                resources they need to excel in the fields of Science,
+                Technology, Engineering, and Mathematics.
+              </p>
+              <p class="mb-4">
+                Our maker space is equipped with a wide range of
+                state-of-the-art equipment and technologies, including laptops,
+                robotics kits, Science kits, and computer programming platforms.
+                Our experienced and passionate educators lead hands-on sessions
+                and workshops that encourage creativity, problem-solving and
+                collaboration.
+              </p>
+              <div class="row g-4 align-items-center">
+                <div class="col-sm-6">
+                  <a class="btn btn-primary rounded-pill py-3 px-5" href=""
+                    >Our Programs</a
+                  >
+                </div>
+              </div> 
+            </div>
+            <div class="col-lg-6 about-img wow fadeInUp" data-wow-delay="0.5s">
+              <div class="row">
+                <div class="col-12 text-center">
+                  <img
+                    class="img-fluid w-75 rounded-circle bg-light p-3"
+                    src="img/about-1.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-6 text-start" style="margin-top: -150px">
+                  <img
+                    class="img-fluid w-100 rounded-circle bg-light p-3"
+                    src="img/about-2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-6 text-end" style="margin-top: -150px">
+                  <img
+                    class="img-fluid w-100 rounded-circle bg-light p-3"
+                    src="img/about-3.jpg"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 about-img wow fadeInUp" data-wow-delay="0.5s">
-            <div class="row">
-              <div class="col-12 text-center">
-                <img class="img-fluid w-75 rounded-circle bg-light p-3" src="img/about-1.jpg" alt="" />
+        </div>
+      </div>
+      <!-- About End -->
+      <!-- Call To Action Start -->
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="bg-light rounded">
+            <div class="row g-0">
+              <div
+                class="col-lg-6 wow fadeIn"
+                data-wow-delay="0.1s"
+                style="min-height: 400px"
+              >
+                <div class="position-relative h-100">
+                  <img
+                    class="position-absolute w-100 h-100 rounded"
+                    src="img/tc-4639.jpg"
+                    style="object-fit: cover"
+                  />
+                </div>
               </div>
-              <div class="col-6 text-start" style="margin-top: -150px">
-                <img class="img-fluid w-100 rounded-circle bg-light p-3" src="img/about-2.jpg" alt="" />
-              </div>
-              <div class="col-6 text-end" style="margin-top: -150px">
-                <img class="img-fluid w-100 rounded-circle bg-light p-3" src="img/about-3.jpg" alt="" />
+              <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <div
+                  class="h-100 d-flex flex-column justify-content-center p-5"
+                >
+                  <h1 class="mb-4">Mission</h1>
+                  <p class="mb-4">
+                    Our mission is to provide affordable and accessible STEM
+                    education to children and young adults from low-income
+                    areas, empowering them to become the next generation of
+                    innovators and leaders.
+                  </p>
+                  <h1 class="mb-4">Vision</h1>
+                  <p class="mb-4">
+                    Our vision is to create a vibrant and inclusive community
+                    where every child has the opportunity to learn and grow
+                    through STEM, regardless of their background or financial
+                    circumstances. We believe that by fostering curiosity,
+                    creativity, and problem-solving skills in the next
+                    generation, we can help shape a brighter and more
+                    sustainable future for all.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- About End -->
-    <!-- Call To Action Start -->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="bg-light rounded">
-          <div class="row g-0">
-            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px">
-              <div class="position-relative h-100">
-                <img class="position-absolute w-100 h-100 rounded" src="img/tc-4639.jpg" style="object-fit: cover" />
-              </div>
-            </div>
-            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-              <div class="h-100 d-flex flex-column justify-content-center p-5">
-                <h1 class="mb-4">Mission</h1>
-                <p class="mb-4">
-                  Our mission is to provide affordable and accessible STEM
-                  education to children and young adults from low-income
-                  areas, empowering them to become the next generation of
-                  innovators and leaders.
+      <!-- Call To Action End -->
+
+      <!-- SDG's Start -->
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div
+            class="text-center mx-auto mb-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+            style="max-width: 600px"
+          >
+            <h1 class="mb-3">SDG's We Focus On</h1>
+            <p>
+              Code With Kids plays a significant role in improving the lives of
+              children and contributes to the achievement of several SDGs by
+              providing learners with the resources, opportunities, and a solid
+              foundation they need to learn, innovate, and become active and
+              responsible citizens in the future.
+            </p>
+          </div>
+          <div class="row" id="card-row">
+            <!-- SDG1 -->
+            <div
+              class="card wow fadeInUp"
+              style="height: 250px; width: 250px; border-radius: 10px"
+            >
+              <img src="img/SDG01.jpg" class="img-fluid" alt="SDG 1" />
+              <div class="card-body">
+                <p class="card-text">
+                  Code With Kids provides learners from low-income areas with
+                  access to educational resources and opportunities that can
+                  help them lift themselves out of poverty.
                 </p>
-                <h1 class="mb-4">Vision</h1>
-                <p class="mb-4">
-                  Our vision is to create a vibrant and inclusive community
-                  where every child has the opportunity to learn and grow
-                  through STEM, regardless of their background or financial
-                  circumstances. We believe that by fostering curiosity,
-                  creativity, and problem-solving skills in the next
-                  generation, we can help shape a brighter and more
-                  sustainable future for all.
+              </div>
+            </div>
+            <!-- SDG2 -->
+            <div
+              class="card wow fadeInUp"
+              style="height: 250px; width: 250px; border-radius: 10px"
+            >
+              <img src="img/SDG02.jpg" class="img-fluid" alt="SDG 2" />
+              <div class="card-body">
+                <p class="card-text">
+                  Code With Kids fosters innovation and creativity that can help
+                  to develop sustainable solutions for food security and
+                  nutrition.
+                </p>
+              </div>
+            </div>
+            <!-- SDG3 -->
+            <div
+              class="card wow fadeInUp"
+              style="height: 250px; width: 250px; border-radius: 10px"
+            >
+              <img src="img/SDG03.jpg" class="img-fluid" alt="SDG 3" />
+              <div class="card-body">
+                <p class="card-text">
+                  At Code With kids we provide learners with opportunities to
+                  learn about healthy living, such as through projects related
+                  to environmental health and food science.
+                </p>
+              </div>
+            </div>
+            <!-- SDG4 -->
+            <div
+              class="card wow fadeInUp"
+              style="height: 250px; width: 250px; border-radius: 10px"
+            >
+              <img src="img/SDG04.jpg" class="img-fluid" alt="SDG 4" />
+              <div class="card-body">
+                <p class="card-text">
+                  Code With Kids provides learners with opportunities to learn
+                  new skills and concepts through hands-on experimentation and
+                  exploration.
+                </p>
+              </div>
+            </div>
+            <!-- SDG5 -->
+            <div
+              class="card wow fadeInUp"
+              style="height: 250px; width: 250px; border-radius: 10px"
+            >
+              <img src="img/SDG05.jpg" class="img-fluid" alt="SDG 5" />
+              <div class="card-body">
+                <p class="card-text">
+                  We promote gender equality by providing equal opportunities
+                  for girls and boys to participate in our STEM activities and
+                  learn about STEM.
+                </p>
+              </div>
+            </div>
+            <!-- SDG6 -->
+            <div
+              class="card wow fadeInUp"
+              style="height: 250px; width: 250px; border-radius: 10px"
+            >
+              <img src="img/SDG07.jpg" class="img-fluid" alt="SDG 7" />
+              <div class="card-body">
+                <p class="card-text">
+                  We provide our learners with opportunities to learn about
+                  clean energy technologies and how they can be used to reduce
+                  greenhouse gas emissions and protect the environment.
+                </p>
+              </div>
+            </div>
+            <!-- SDG7 -->
+            <div
+              class="card wow fadeInUp"
+              style="height: 250px; width: 250px; border-radius: 10px"
+            >
+              <img src="img/SDG08.jpg" class="img-fluid" alt="SDG 8" />
+              <div class="card-body">
+                <p class="card-text">
+                  We offer access to educational resources and opportunities
+                  that can help them develop the skills and knowledge they need
+                  to secure decent work and contribute to economic growth.
+                </p>
+              </div>
+            </div>
+            <!-- SDG8 -->
+            <div
+              class="card wow fadeInUp"
+              style="height: 250px; width: 250px; border-radius: 10px"
+            >
+              <img src="img/SDG10.jpg" class="img-fluid" alt="SDG 10" />
+              <div class="card-body">
+                <p class="card-text">
+                  We provide learners from disadvantaged backgrounds with access
+                  to educational resources and opportunities that may not be
+                  available to them otherwise, helping to reduce inequalities in
+                  STEM education.
+                </p>
+              </div>
+            </div>
+            <!-- SDG9 -->
+            <div
+              class="card wow fadeInUp"
+              style="height: 250px; width: 250px; border-radius: 10px"
+            >
+              <img src="img/SDG11.jpg" class="img-fluid" alt="SDG 11" />
+              <div class="card-body">
+                <p class="card-text">
+                  We help to promote sustainable urban development by teaching
+                  our learners about environmental protection and resource
+                  conservation.
+                </p>
+              </div>
+            </div>
+            <!-- SDG13 -->
+            <div
+              class="card wow fadeInUp"
+              style="height: 250px; width: 250px; border-radius: 10px"
+            >
+              <img src="img/SDG13.jpg" class="img-fluid" alt="SDG 13" />
+              <div class="card-body">
+                <p class="card-text">
+                  We provide learners with opportunities to learn about climate
+                  change and how they can take action to reduce greenhouse gas
+                  emissions and protect the planet.
+                </p>
+              </div>
+            </div>
+            <!-- SDG17 -->
+            <div
+              class="card wow fadeInUp"
+              style="height: 250px; width: 250px; border-radius: 10px"
+            >
+              <img src="img/SDG17.jpg" class="img-fluid" alt="SDG 17" />
+              <div class="card-body">
+                <p class="card-text">
+                  We foster innovation and creativity that help to develop
+                  sustainable solutions through partnerships with local
+                  organizations and community groups to provide STEM resources
+                  to our learners.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Call To Action End -->
+      <!--SDG's End -->
 
-    <!-- SDG's Start -->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px">
-          <h1 class="mb-3">SDG's We Focus On</h1>
-          <p>
-            Code With Kids plays a significant role in improving the lives of children and contributes
-            to the achievement of several SDGs by providing learners with the resources, opportunities,
-            and a solid foundation they need to learn, innovate,
-            and become active and responsible citizens in the future.
-          </p>
-        </div>
-        <div class="row" id="card-row">
-          <!-- SDG1 -->
-          <div class="card wow fadeInUp" style="height: 250px; width: 250px; border-radius: 10px;">
-            <img src="img/SDG01.jpg" class="img-fluid" alt="SDG 1">
-            <div class="card-body">
-              <p class="card-text">
-                Code With Kids provides learners from low-income areas with access to educational resources and
-                opportunities that can
-                help them lift themselves out of poverty.
-              </p>
-            </div>
+      <!-- Testimonial Start -->
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div
+            class="text-center mx-auto mb-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+            style="max-width: 600px"
+          >
+            <h1 class="mb-3">What Our Partners Say!</h1>
+            <p>
+              Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut
+              dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed
+              rebum vero dolor duo.
+            </p>
           </div>
-          <!-- SDG2 -->
-          <div class="card wow fadeInUp" style="height: 250px; width: 250px; border-radius: 10px;">
-            <img src="img/SDG02.jpg" class="img-fluid" alt="SDG 2">
-            <div class="card-body">
-              <p class="card-text">
-                Code With Kids fosters innovation and creativity that can help to develop sustainable solutions for food
-                security and
-                nutrition.
+          <div
+            class="owl-carousel testimonial-carousel wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div class="testimonial-item bg-light rounded p-5">
+              <p class="fs-5">
+                Tempor stet labore dolor clita stet diam amet ipsum dolor duo
+                ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet
+                est kasd kasd erat eos
               </p>
+              <div
+                class="d-flex align-items-center bg-white me-n5"
+                style="border-radius: 50px 0 0 50px"
+              >
+                <img
+                  class="img-fluid flex-shrink-0 rounded-circle"
+                  src="img/christine.jpg"
+                  style="width: 90px; height: 90px"
+                />
+                <div class="ps-3">
+                  <h3 class="mb-1">Christine Amondi</h3>
+                  <span>Kings & Queens of KIbera</span>
+                </div>
+                <i
+                  class="fa fa-quote-right fa-3x text-primary ms-auto d-none d-sm-flex"
+                ></i>
+              </div>
             </div>
-          </div>
-          <!-- SDG3 -->
-          <div class="card wow fadeInUp" style="height: 250px; width: 250px; border-radius: 10px;">
-            <img src="img/SDG03.jpg" class="img-fluid" alt="SDG 3">
-            <div class="card-body">
-              <p class="card-text">
-              At Code With kids we provide learners with opportunities to learn about healthy 
-              living, such as through projects related to environmental health and food science.
+            <div class="testimonial-item bg-light rounded p-5">
+              <p class="fs-5">
+                Tempor stet labore dolor clita stet diam amet ipsum dolor duo
+                ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet
+                est kasd kasd erat eos
               </p>
+              <div
+                class="d-flex align-items-center bg-white me-n5"
+                style="border-radius: 50px 0 0 50px"
+              >
+                <img
+                  class="img-fluid flex-shrink-0 rounded-circle"
+                  src="img/christine.jpg"
+                  style="width: 90px; height: 90px"
+                />
+                <div class="ps-3">
+                  <h3 class="mb-1">Christine Amondi</h3>
+                  <span>Kings & Queens of KIbera</span>
+                </div>
+                <i
+                  class="fa fa-quote-right fa-3x text-primary ms-auto d-none d-sm-flex"
+                ></i>
+              </div>
             </div>
-          </div>
-          <!-- SDG4 -->
-          <div class="card wow fadeInUp" style="height: 250px; width: 250px; border-radius: 10px;">
-            <img src="img/SDG04.jpg" class="img-fluid" alt="SDG 4">
-            <div class="card-body">
-              <p class="card-text">
-              Code With Kids provides learners with opportunities to learn new skills and concepts
-              through hands-on experimentation and exploration.
+            <div class="testimonial-item bg-light rounded p-5">
+              <p class="fs-5">
+                Tempor stet labore dolor clita stet diam amet ipsum dolor duo
+                ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet
+                est kasd kasd erat eos
               </p>
+              <div
+                class="d-flex align-items-center bg-white me-n5"
+                style="border-radius: 50px 0 0 50px"
+              >
+                <img
+                  class="img-fluid flex-shrink-0 rounded-circle"
+                  src="img/testimonial-2.jpg"
+                  style="width: 90px; height: 90px"
+                />
+                <div class="ps-3">
+                  <h3 class="mb-1">John Owoko</h3>
+                  <span>Blessed Hope Child Center</span>
+                </div>
+                <i
+                  class="fa fa-quote-right fa-3x text-primary ms-auto d-none d-sm-flex"
+                ></i>
+              </div>
             </div>
-          </div>
-          <!-- SDG5 -->
-          <div class="card wow fadeInUp" style="height: 250px; width: 250px; border-radius: 10px;">
-            <img src="img/SDG05.jpg" class="img-fluid" alt="SDG 5">
-            <div class="card-body">
-              <p class="card-text">
-                We promote gender equality by providing equal opportunities for girls and boys to participate in our
-                STEM activities and learn about STEM.
+            <div class="testimonial-item bg-light rounded p-5">
+              <p class="fs-5">
+                Tempor stet labore dolor clita stet diam amet ipsum dolor duo
+                ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet
+                est kasd kasd erat eos
               </p>
-            </div>
-          </div>
-          <!-- SDG6 -->
-          <div class="card wow fadeInUp" style="height: 250px; width: 250px; border-radius: 10px;">
-            <img src="img/SDG07.jpg" class="img-fluid" alt="SDG 7">
-            <div class="card-body">
-              <p class="card-text">
-                We provide our learners with opportunities to learn about clean energy technologies and how they can be
-                used to
-                reduce
-                greenhouse gas emissions and protect the environment.
-              </p>
-            </div>
-          </div>
-          <!-- SDG7 -->
-          <div class="card wow fadeInUp" style="height: 250px; width: 250px; border-radius: 10px;">
-            <img src="img/SDG08.jpg" class="img-fluid" alt="SDG 8">
-            <div class="card-body">
-              <p class="card-text">
-                We offer access to educational resources and opportunities that can help them 
-                develop the skills and knowledge they need to secure decent work and contribute 
-                to economic growth.
-              </p>
-            </div>
-          </div>
-          <!-- SDG8 -->
-          <div class="card wow fadeInUp" style="height: 250px; width: 250px; border-radius: 10px;">
-            <img src="img/SDG10.jpg" class="img-fluid" alt="SDG 10">
-            <div class="card-body">
-              <p class="card-text">
-              We provide learners from disadvantaged backgrounds with access to educational 
-              resources and opportunities that may not be available to them otherwise, helping to reduce inequalities in STEM education.
-              </p>
-            </div>
-          </div>
-          <!-- SDG9 -->
-          <div class="card wow fadeInUp" style="height: 250px; width: 250px; border-radius: 10px;">
-            <img src="img/SDG11.jpg" class="img-fluid" alt="SDG 11">
-            <div class="card-body">
-              <p class="card-text">
-                We help to promote sustainable urban development by teaching our learners about environmental protection
-                and
-                resource
-                conservation.
-              </p>
-            </div>
-          </div>
-          <!-- SDG13 -->
-          <div class="card wow fadeInUp" style="height: 250px; width: 250px; border-radius: 10px;">
-            <img src="img/SDG13.jpg" class="img-fluid" alt="SDG 13">
-            <div class="card-body">
-              <p class="card-text">
-                We provide learners with opportunities to learn about climate change and how they can take action to
-                reduce greenhouse gas emissions and protect the planet.
-              </p>
-            </div>
-          </div>
-          <!-- SDG17 -->
-          <div class="card wow fadeInUp" style="height: 250px; width: 250px; border-radius: 10px;">
-            <img src="img/SDG17.jpg" class="img-fluid" alt="SDG 17">
-            <div class="card-body">
-              <p class="card-text">
-              We foster innovation and creativity that help to develop sustainable solutions through
-              partnerships with local organizations and community groups to provide STEM resources to our learners.
-              </p>
+              <div
+                class="d-flex align-items-center bg-white me-n5"
+                style="border-radius: 50px 0 0 50px"
+              >
+                <img
+                  class="img-fluid flex-shrink-0 rounded-circle"
+                  src="img/testimonial-3.jpg"
+                  style="width: 90px; height: 90px"
+                />
+                <div class="ps-3">
+                  <h3 class="mb-1">Sharon Moraa</h3>
+                  <span>Soweto Junior School</span>
+                </div>
+                <i
+                  class="fa fa-quote-right fa-3x text-primary ms-auto d-none d-sm-flex"
+                ></i>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!--SDG's End -->
-
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px">
-          <h1 class="mb-3">What Our Partners  Say!</h1>
-          <p>
-            Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut
-            dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed
-            rebum vero dolor duo.
-          </p>
-        </div>
-        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-          <div class="testimonial-item bg-light rounded p-5">
-            <p class="fs-5">
-              Tempor stet labore dolor clita stet diam amet ipsum dolor duo
-              ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet
-              est kasd kasd erat eos
-            </p>
-            <div class="d-flex align-items-center bg-white me-n5" style="border-radius: 50px 0 0 50px">
-              <img class="img-fluid flex-shrink-0 rounded-circle" src="img/christine.jpg"
-                style="width: 90px; height: 90px" />
-              <div class="ps-3">
-                <h3 class="mb-1">Christine Amondi</h3>
-                <span>Kings & Queens of KIbera</span>
-              </div>
-              <i class="fa fa-quote-right fa-3x text-primary ms-auto d-none d-sm-flex"></i>
-            </div>
-          </div>
-          <div class="testimonial-item bg-light rounded p-5">
-            <p class="fs-5">
-              Tempor stet labore dolor clita stet diam amet ipsum dolor duo
-              ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet
-              est kasd kasd erat eos
-            </p>
-            <div class="d-flex align-items-center bg-white me-n5" style="border-radius: 50px 0 0 50px">
-              <img class="img-fluid flex-shrink-0 rounded-circle" src="img/christine.jpg"
-                style="width: 90px; height: 90px" />
-              <div class="ps-3">
-                <h3 class="mb-1">Christine Amondi</h3>
-                <span>Kings & Queens of KIbera</span>
-              </div>
-              <i class="fa fa-quote-right fa-3x text-primary ms-auto d-none d-sm-flex"></i>
-            </div>
-          </div>
-          <div class="testimonial-item bg-light rounded p-5">
-            <p class="fs-5">
-              Tempor stet labore dolor clita stet diam amet ipsum dolor duo
-              ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet
-              est kasd kasd erat eos
-            </p>
-            <div class="d-flex align-items-center bg-white me-n5" style="border-radius: 50px 0 0 50px">
-              <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg"
-                style="width: 90px; height: 90px" />
-              <div class="ps-3">
-                <h3 class="mb-1">John Owoko</h3>
-                <span>Blessed Hope Child Center</span>
-              </div>
-              <i class="fa fa-quote-right fa-3x text-primary ms-auto d-none d-sm-flex"></i>
-            </div>
-          </div>
-          <div class="testimonial-item bg-light rounded p-5">
-            <p class="fs-5">
-              Tempor stet labore dolor clita stet diam amet ipsum dolor duo
-              ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet
-              est kasd kasd erat eos
-            </p>
-            <div class="d-flex align-items-center bg-white me-n5" style="border-radius: 50px 0 0 50px">
-              <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg"
-                style="width: 90px; height: 90px" />
-              <div class="ps-3">
-                <h3 class="mb-1">Sharon Moraa</h3>
-                <span>Soweto Junior School</span>
-              </div>
-              <i class="fa fa-quote-right fa-3x text-primary ms-auto d-none d-sm-flex"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Testimonial End -->
-
+      <!-- Testimonial End -->
 
       <!-- Back to Top -->
-      <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+      <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+        ><i class="bi bi-arrow-up"></i
+      ></a>
     </div>
 
     <!-- JavaScript Libraries -->
@@ -422,6 +534,5 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
