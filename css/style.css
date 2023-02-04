@@ -552,6 +552,10 @@ h6,
     background: #f3f6ff;
 }
 
+.causes-item {
+  padding: 2em;
+}
+
 .causes .causes-img {
     overflow: hidden;
 }
