@@ -265,7 +265,7 @@ h6,
     margin-top: 10px;
     font-size: 60px;
     line-height: 60px;
-    color: #FDBE33;
+    color: #25AA9B;
 }
 
 .facts .facts-text {
@@ -300,7 +300,7 @@ h6,
 }
 
 .facts .facts-text p {
-    color: #F7CB1C ;
+    color: #25AA9B ;
     font-size: 22px;
     font-weight: 600;
     margin: 0;
@@ -648,8 +648,8 @@ h6,
 }
 
 .causes .causes-btn .btn:last-child {
-    color: #20212B;
-    background: #FDBE33;
+    color: #ffffff;
+    background: #EC4C6C;
 }
 
 .causes .causes-btn .btn:last-child:hover {
