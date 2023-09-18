@@ -14,8 +14,6 @@
         }, 1);
     };
     spinner();
-
-
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
